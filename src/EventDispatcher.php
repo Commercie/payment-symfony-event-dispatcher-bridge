@@ -2,21 +2,21 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\EventDispatcher.
+ * Contains \Commercie\Payment\Bridge\Symfony\EventDispatcher\EventDispatcher.
  */
 
-namespace BartFeenstra\Payment\Bridge\Symfony\EventDispatcher;
+namespace Commercie\Payment\Bridge\Symfony\EventDispatcher;
 
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\CanCapturePayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\CanExecutePayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\CanRefundPayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChange;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PreCapturePayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PreExecutePayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PreRefundPayment;
-use BartFeenstra\Payment\EventDispatcherInterface;
-use BartFeenstra\Payment\Payment\PaymentInterface;
-use BartFeenstra\Payment\PaymentMethod\PaymentMethodInterface;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\CanCapturePayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\CanExecutePayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\CanRefundPayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChange;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PreCapturePayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PreExecutePayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PreRefundPayment;
+use Commercie\Payment\EventDispatcherInterface;
+use Commercie\Payment\Payment\PaymentInterface;
+use Commercie\Payment\PaymentMethod\PaymentMethodInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface as SymfonyEventDispatcherInterface;
 
 /**

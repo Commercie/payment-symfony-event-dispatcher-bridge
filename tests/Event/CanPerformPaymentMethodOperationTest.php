@@ -2,31 +2,31 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Tests\Payment\Bridge\Symfony\EventDispatcher\Event\CanPerformPaymentMethodOperationTest.
+ * Contains \Commercie\Tests\Payment\Bridge\Symfony\EventDispatcher\Event\CanPerformPaymentMethodOperationTest.
  */
 
-namespace BartFeenstra\Tests\Payment\Bridge\Symfony\EventDispatcher;
+namespace Commercie\Tests\Payment\Bridge\Symfony\EventDispatcher;
 
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\CanPerformPaymentMethodOperation;
-use BartFeenstra\Payment\PaymentMethod\PaymentMethodInterface;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\CanPerformPaymentMethodOperation;
+use Commercie\Payment\PaymentMethod\PaymentMethodInterface;
 
 
 /**
- * @coversDefaultClass \BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\CanPerformPaymentMethodOperation
+ * @coversDefaultClass \Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\CanPerformPaymentMethodOperation
  */
 class CanPerformPaymentMethodOperationTest extends \PHPUnit_Framework_TestCase {
 
   /**
    * The payment method.
    *
-   * @var \BartFeenstra\Payment\PaymentMethod\PaymentMethodInterface|\PHPUnit_Framework_MockObject_MockObject
+   * @var \Commercie\Payment\PaymentMethod\PaymentMethodInterface|\PHPUnit_Framework_MockObject_MockObject
    */
   protected $paymentMethod;
 
   /**
    * The subject under test.
    *
-   * @var \BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\CanPerformPaymentMethodOperation
+   * @var \Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\CanPerformPaymentMethodOperation
    */
   protected $sut;
 

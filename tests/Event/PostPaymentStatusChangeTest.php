@@ -2,31 +2,31 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Tests\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChangeTest.
+ * Contains \Commercie\Tests\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChangeTest.
  */
 
-namespace BartFeenstra\Tests\Payment\Bridge\Symfony\EventDispatcher;
+namespace Commercie\Tests\Payment\Bridge\Symfony\EventDispatcher;
 
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChange;
-use BartFeenstra\Payment\Payment\PaymentInterface;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChange;
+use Commercie\Payment\Payment\PaymentInterface;
 
 
 /**
- * @coversDefaultClass \BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChange
+ * @coversDefaultClass \Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChange
  */
 class PostPaymentStatusChangeTest extends \PHPUnit_Framework_TestCase {
 
   /**
    * The payment.
    *
-   * @var \BartFeenstra\Payment\Payment\PaymentInterface|\PHPUnit_Framework_MockObject_MockObject
+   * @var \Commercie\Payment\Payment\PaymentInterface|\PHPUnit_Framework_MockObject_MockObject
    */
   protected $payment;
 
   /**
    * The subject under test.
    *
-   * @var \BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChange
+   * @var \Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChange
    */
   protected $sut;
 

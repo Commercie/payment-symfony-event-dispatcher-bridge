@@ -1,6 +1,6 @@
 {
-  "name": "bartfeenstra/payment-symfony-event-dispatcher-bridge",
-  "description": "Integrates bartfeenstra/payment with symfony/event-dispatcher.",
+  "name": "commercie/payment-symfony-event-dispatcher-bridge",
+  "description": "Integrates commercie/payment with symfony/event-dispatcher.",
   "license": "MIT",
   "authors": [
     {
@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "bartfeenstra/payment": "0.1.*",
+    "commercie/payment": "0.3.*",
     "php": "~5.5 || ~7.0",
     "symfony/event-dispatcher": "~2.7"
   },
@@ -18,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "BartFeenstra\\Payment\\Bridge\\Symfony\\EventDispatcher\\": "src"
+      "Commercie\\Payment\\Bridge\\Symfony\\EventDispatcher\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "BartFeenstra\\Tests\\Payment\\Bridge\\Symfony\\EventDispatcher\\": "tests"
+      "Commercie\\Tests\\Payment\\Bridge\\Symfony\\EventDispatcher\\": "tests"
     }
   }
 }

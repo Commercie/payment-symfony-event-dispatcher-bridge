@@ -2,31 +2,31 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Tests\Payment\Bridge\Symfony\EventDispatcher\Event\PrePaymentMethodOperationTest.
+ * Contains \Commercie\Tests\Payment\Bridge\Symfony\EventDispatcher\Event\PrePaymentMethodOperationTest.
  */
 
-namespace BartFeenstra\Tests\Payment\Bridge\Symfony\EventDispatcher;
+namespace Commercie\Tests\Payment\Bridge\Symfony\EventDispatcher;
 
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PrePaymentMethodOperation;
-use BartFeenstra\Payment\PaymentMethod\PaymentMethodInterface;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PrePaymentMethodOperation;
+use Commercie\Payment\PaymentMethod\PaymentMethodInterface;
 
 
 /**
- * @coversDefaultClass \BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PrePaymentMethodOperation
+ * @coversDefaultClass \Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PrePaymentMethodOperation
  */
 class PrePaymentMethodOperationTest extends \PHPUnit_Framework_TestCase {
 
   /**
    * The payment method.
    *
-   * @var \BartFeenstra\Payment\PaymentMethod\PaymentMethodInterface|\PHPUnit_Framework_MockObject_MockObject
+   * @var \Commercie\Payment\PaymentMethod\PaymentMethodInterface|\PHPUnit_Framework_MockObject_MockObject
    */
   protected $paymentMethod;
 
   /**
    * The subject under test.
    *
-   * @var \BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PrePaymentMethodOperation
+   * @var \Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PrePaymentMethodOperation
    */
   protected $sut;
 

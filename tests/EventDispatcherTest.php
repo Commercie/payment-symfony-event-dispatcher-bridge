@@ -2,26 +2,26 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Tests\Payment\Bridge\Symfony\EventDispatcher\EventDispatcherTest.
+ * Contains \Commercie\Tests\Payment\Bridge\Symfony\EventDispatcher\EventDispatcherTest.
  */
 
-namespace BartFeenstra\Tests\Payment\Bridge\Symfony\EventDispatcher;
+namespace Commercie\Tests\Payment\Bridge\Symfony\EventDispatcher;
 
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\CanCapturePayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\CanExecutePayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\CanRefundPayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChange;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PreCapturePayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PreExecutePayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\Event\PreRefundPayment;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\EventDispatcher;
-use BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\PaymentEvents;
-use BartFeenstra\Payment\Payment\PaymentInterface;
-use BartFeenstra\Payment\PaymentMethod\PaymentMethodInterface;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\CanCapturePayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\CanExecutePayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\CanRefundPayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PostPaymentStatusChange;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PreCapturePayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PreExecutePayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\Event\PreRefundPayment;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\EventDispatcher;
+use Commercie\Payment\Bridge\Symfony\EventDispatcher\PaymentEvents;
+use Commercie\Payment\Payment\PaymentInterface;
+use Commercie\Payment\PaymentMethod\PaymentMethodInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 /**
- * @coversDefaultClass \BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\EventDispatcher
+ * @coversDefaultClass \Commercie\Payment\Bridge\Symfony\EventDispatcher\EventDispatcher
  */
 class EventDispatcherTest extends \PHPUnit_Framework_TestCase {
 
@@ -35,7 +35,7 @@ class EventDispatcherTest extends \PHPUnit_Framework_TestCase {
   /**
    * The subject under test.
    *
-   * @var \BartFeenstra\Payment\Bridge\Symfony\EventDispatcher\EventDispatcher
+   * @var \Commercie\Payment\Bridge\Symfony\EventDispatcher\EventDispatcher
    */
   protected $sut;
 
